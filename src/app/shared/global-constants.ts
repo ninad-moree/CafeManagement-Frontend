@@ -8,4 +8,7 @@ export class GlobalConstants {
     public static error:string = "error";
 
     public static unautorised:string = "You are not authorised person to access this page.";
+    
+    public static productExistsError:string = "Product already exists";
+    public static productAdded:string = "Product added successfully";
 }

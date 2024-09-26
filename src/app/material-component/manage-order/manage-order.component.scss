@@ -1,0 +1,34 @@
+.mat-form-field {
+    padding: 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+.table {
+    width: 100%;
+}
+
+.mat-card {
+    padding-bottom: 30px !important;
+}
+
+// .responsive_table {
+//     width: 100%;
+//     overflow-x: auto;
+// }
+
+.responsive_table {
+    width: 100%;
+    overflow-x: auto; /* Ensures the table scrolls horizontally if content overflows */
+}
+  
+.full-width-table {
+    width: 100%; /* Ensures the table itself takes full width */
+}
+  
+.mat-header-cell, .mat-cell {
+    width: auto; /* Allow cells to take up their respective space */
+    white-space: nowrap; /* Prevents the table from wrapping content if it's too long */
+}
