@@ -1,0 +1,25 @@
+.float-right {
+    float: right;
+}
+
+.mat-card {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.responsive_table {
+    width: 100%;
+    overflow-x: auto; /* Ensures the table scrolls horizontally if content overflows */
+}
+  
+.full-width-table {
+    width: 100%; /* Ensures the table itself takes full width */
+}
+  
+.mat-header-cell, .mat-cell {
+    width: auto; /* Allow cells to take up their respective space */
+    white-space: nowrap; /* Prevents the table from wrapping content if it's too long */
+}
